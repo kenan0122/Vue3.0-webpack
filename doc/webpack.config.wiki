@@ -1,0 +1,9 @@
+配置中的解读
+  1.devtool: (https://www.jianshu.com/p/62dc120d96d0)
+    开发环境
+    eval, eval-source-map, cheap-eval-source-map, cheap-module-eval-source-map, cheap-module-source-map
+
+    生产环境
+    source-map hidden-source-map nosources-source-map
+  2.devServer: 主要用来提高开发效率的,可以自动启动热更新,在发现源代码被变更后， 
+  通过自动刷新整个页面来做到事实预览(https://www.jianshu.com/p/b50f46917234)
